@@ -15,7 +15,7 @@ AMARELO = (244, 233, 51)
 
 #Imagens
 SPRITESHEET = 'spritesheet.png'
-PACMAN_START_LOGO = 'pacman-logo-1.png'
+PACMAN_START_LOGO = 'pacman-logo.png'
 
 #Fonte
 FONTE = 'arial'
