@@ -1,7 +1,5 @@
 <!--↓               Cabeçalho do repositório               ↓-->
-<center>
-    # [<img src="./resources/images/icon.png" alt="PycMan_Icon" height="26" align="left" target="_blank" style="transform:translate(0%, 30%);" />](https://github.com/calbertofilho/PycMan)[PycMan](https://github.com/calbertofilho/PycMan)[<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="30" target="_blank" style="transform:translate(60%, 20%);" />](https://github.com/calbertofilho/PycMan)
-</center>
+# [<img src="./resources/images/icon.png" alt="PycMan_Icon" height="26" align="left" target="_blank" style="transform:translate(0%, 30%);" />](https://github.com/calbertofilho/PycMan)[PycMan](https://github.com/calbertofilho/PycMan)[<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="30" target="_blank" style="transform:translate(60%, 20%);" />](https://github.com/calbertofilho/PycMan)
 <!--↑                   Fim do cabeçalho                   ↑-->
 
 <!--↓  ↓-->
@@ -33,7 +31,7 @@ git clone
 ### :handshake: Colaboradores
 | |
 | :--: |
-| [<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="left" target="_blank" />](http://github.com/calbertofilho)<br/>[calbertofilho](http://github.com/calbertofilho) |
+[<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="left" target="_blank" />](http://github.com/calbertofilho)<br/>[calbertofilho](http://github.com/calbertofilho)
 
 ### :dart: Status do projeto
 <!--↑                                                      ↑-->
