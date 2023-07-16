@@ -15,12 +15,17 @@ Escrito em Python, utilizando a biblioteca PyGame.
 * Python
 * PyGame
 
+### :electric_plug: Pre-requisitos
+```
+```
+
 ### :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
 ```
 
-### :electric_plug: Pre-requisitos
+### :space_invader: Executando o jogo
+Para jogar é necessário:
 ```
 ```
 
