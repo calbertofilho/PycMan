@@ -18,7 +18,6 @@ Escrito em Python, utilizando a biblioteca PyGame.
 ### :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
 ```
-git clone
 ```
 
 ### :electric_plug: Pre-requisitos
@@ -29,9 +28,8 @@ git clone
 * O que será implementado na próxima sprint?
 
 ### :handshake: Colaboradores
-| |
+| [<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="left" target="_blank" />](http://github.com/calbertofilho)<br />[calbertofilho](http://github.com/calbertofilho) |
 | :--: |
-[<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="left" target="_blank" />](http://github.com/calbertofilho)<br/>[calbertofilho](http://github.com/calbertofilho)
 
 ### :dart: Status do projeto
 <!--↑                                                      ↑-->
