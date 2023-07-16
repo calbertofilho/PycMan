@@ -28,7 +28,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 * O que será implementado na próxima sprint?
 
 ### :handshake: Colaboradores
-| [<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="left" target="_blank" />](http://github.com/calbertofilho)<br />[calbertofilho](http://github.com/calbertofilho) |
+| [<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="center" target="_blank" />](http://github.com/calbertofilho)<br />[calbertofilho](http://github.com/calbertofilho) |
 | :--: |
 
 ### :dart: Status do projeto
