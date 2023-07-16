@@ -1,7 +1,7 @@
 <!--↓               Cabeçalho do repositório               ↓-->
 <h1 align="center">
 
-[<img src="./resources/images/icon.png" alt="PycMan_Icon" height="26" target="_blank" style="transform:translate(0%, 30%);" />](https://github.com/calbertofilho/PycMan) [PycMan](https://github.com/calbertofilho/PycMan) [<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="30" target="_blank" style="transform:translate(60%, 20%);" />](https://github.com/calbertofilho/PycMan)
+[<img src="./resources/images/icon.png" alt="PycMan_Icon" height="50" target="_blank" align="left" />](https://github.com/calbertofilho/PycMan) [PycMan](https://github.com/calbertofilho/PycMan) [<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="50" target="_blank"  align="right" />](https://github.com/calbertofilho/PycMan)
 
 </h1>
 <!--↑                   Fim do cabeçalho                   ↑-->
