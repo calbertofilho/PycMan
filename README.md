@@ -1,7 +1,9 @@
 <!--↓               Cabeçalho do repositório               ↓-->
 <h1 align="center">
 
-[<img src="./resources/images/icon.png" alt="PycMan_Icon" height="50" target="_blank" align="left" />](https://github.com/calbertofilho/PycMan) [PycMan](https://github.com/calbertofilho/PycMan) [<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="50" target="_blank"  align="right" />](https://github.com/calbertofilho/PycMan)
+[<img src="./resources/images/icon.png" alt="PycMan_Icon" height="50" target="_blank" align="left" />]()
+PycMan
+[<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="50" target="_blank"  align="right" />]()
 
 </h1>
 <!--↑                   Fim do cabeçalho                   ↑-->
