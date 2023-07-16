@@ -33,7 +33,7 @@ Para jogar é necessário:
 * O que será implementado na próxima sprint?
 
 ### :handshake: Colaboradores
-| [<img src="https://avatars.githubusercontent.com/u/84130607?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="center" target="_blank" />](http://github.com/calbertofilho)<br />[calbertofilho](http://github.com/calbertofilho) | [<img src="https://avatars.githubusercontent.com/u/84408670?v=4" alt="Foto de Carlos Alberto Filho no GitHub" height="100px" align="center" target="_blank" />](https://github.com/victortarg)<br />[victortarg](https://github.com/victortarg) |
+| ![Foto de Carlos Alberto Filho no GitHub](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/84130607?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d)<br />[calbertofilho](https://github.com/calbertofilho) | ![Foto de Victor Targino Morais no GitHub](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/84408670?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d)<br />[victortarg](https://github.com/victortarg) |
 | :-: | :-: |
 
 ### :dart: Status do projeto
