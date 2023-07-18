@@ -3,6 +3,7 @@ from sys import exit
 import pygame
 
 class Game:
+
     '''Função de inicialização de todas as bibliotecas do jogo'''
     def __init__(self):
         environment['SDL_VIDEO_CENTERED'] = '1'                                                                     # Centraliza a janela no monitor
