@@ -7,7 +7,8 @@ class Game:
     def __init__(self):
         environment['SDL_VIDEO_CENTERED'] = '1'                                                                     # Centraliza a janela no monitor
         pygame.init()                                                                                               # Inicia a biblioteca PyGame
-        pygame.mixer.pre_init(frequency = 44100, size = 16, channels = 1, buffer = 512)                             # Inicia a biblioteca de manipulação de áudio
+        pygame.font.init()                                                                                          # Inicia a biblioteca de manipulação de fonts do PyGame
+        pygame.mixer.pre_init(frequency = 44100, size = 16, channels = 1, buffer = 512)                             # Inicia a biblioteca de manipulação de áudio do PyGame
         self.running = True                                                                                         # Flag que sinaliza a execução do jogo
         self.playing = False                                                                                        # Flag que sinaliza se está no play do jogo
         self.UP_KEY      = False                                                                                    # Flag que sinaliza que a tecla ↑ foi pressionada

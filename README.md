@@ -1,4 +1,4 @@
-<!--↓               Cabeçalho do repositório               ↓-->
+<!-- ↓               Título do repositório                ↓ -->
 <h1 align="center">
 
 [<img src="./resources/images/icon.png" alt="PycMan_Icon" height="50" target="_blank" align="left" />]()
@@ -6,16 +6,15 @@ PycMan
 [<img src="./resources/images/ghost.png" alt="Ghost_Icon" height="50" target="_blank"  align="right" />]()
 
 </h1>
-<!--↑                   Fim do cabeçalho                   ↑-->
+<!-- ↑                        Fim                         ↑ -->
 
-<!--↓  ↓-->
+<!-- ↓  ↓ -->
 ### :memo: Descrição
-Clone do jogo PacMan:<br />
-Escrito em Python, utilizando a biblioteca PyGame.
-<!--↑  ↑-->
+Clone do jogo PacMan: Escrito em Python
+<!-- ↑  ↑ -->
 
 ### :books: Funcionalidades
-* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+* <b>Funcionalidade</b>: O que essa funcionalidade faz?
 
 ### :wrench: Tecnologias utilizadas
 * Python
@@ -43,4 +42,4 @@ Para jogar é necessário:
 | :-: | :-: |
 
 ### :dart: Status do projeto
-<!--↑                                                      ↑-->
+<!-- ↑                                                    ↑ -->
