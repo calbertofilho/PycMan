@@ -20,8 +20,24 @@ Clone do jogo PacMan: Escrito em Python
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓      Funcionalidades implementadas na solução      ↓ -->
-### :books: Funcionalidades
+### :gear: Funcionalidades
 * <b>Funcionalidade</b>: O que essa funcionalidade faz?
+<!-- ↑                        Fim                         ↑ -->
+
+<!-- ↓                Diagrama de classes                 ↓ -->
+### :label: Diagrama
+```mermaid
+classDiagram
+    Block <|-- I_Block: Inheritance
+
+    Block : +int id
+    Block : +move()
+
+    class I_Block {
+        +dict cells
+        +move()
+    }
+```
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓  ↓ -->
