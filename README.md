@@ -30,7 +30,7 @@ Clone do jogo PacMan: Escrito em Python
 classDiagram
     Character <|-- Player: Inheritance
     Character <|-- NPC: Inheritance
-    NPC <|-- Ghosts: Inheritance
+                   NPC <|-- Ghosts: Inheritance
 
     Character : +int id
     Character : +move()
