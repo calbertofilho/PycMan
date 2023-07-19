@@ -29,7 +29,7 @@ Clone do jogo PacMan: Escrito em Python
 ```mermaid
 classDiagram
     NCP <|-- Player: Inheritance
-    NCP <|-- Ghost: Inheritance
+    NCP <|-- Ghosts: Inheritance
 
     Player : +int id
     Player : +move()
