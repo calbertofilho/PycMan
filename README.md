@@ -28,13 +28,17 @@ Clone do jogo PacMan: Escrito em Python
 ### :label: Diagrama
 ```mermaid
 classDiagram
-    NCP <|-- Player: Inheritance
-    NCP <|-- Ghosts: Inheritance
+    Character <|-- Player: Inheritance
+    Character <|-- NPC: Inheritance <|-- Ghosts: Inheritance
 
-    Player : +int id
-    Player : +move()
+    Character : +int id
+    Character : +move()
 
-    class Ghosts {
+    class Player {
+        +move()
+    }
+
+    class NPC {
         +move()
     }
 ```
