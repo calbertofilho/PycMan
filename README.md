@@ -29,7 +29,8 @@ Clone do jogo PacMan: Escrito em Python
 ```mermaid
 classDiagram
     Character <|-- Player: Inheritance
-    Character <|-- NPC: Inheritance <|-- Ghosts: Inheritance
+    Character <|-- NPC: Inheritance
+    NPC <|-- Ghosts: Inheritance
 
     Character : +int id
     Character : +move()
