@@ -27,10 +27,10 @@ Clone do jogo PacMan: Escrito em Python
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
 ### :open_file_folder: Estrutura do projeto
 :open_file_folder: Folder1/<br />
-&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder2/<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File1<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File2<br />
-&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder3/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder2/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder3/
 
 <!-- ↑                        Fim                         ↑ -->
 
