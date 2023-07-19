@@ -30,8 +30,8 @@ Clone do jogo PacMan: Escrito em Python
     <summary>:open_file_folder: Folder1/</summary>
     <details open>
         <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder2/</summary>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File1<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File2
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File1<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File2
         <details open>
             <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder3/</summary>
         </details>
