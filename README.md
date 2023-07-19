@@ -26,11 +26,10 @@ Clone do jogo PacMan: Escrito em Python
 
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
 ### Estrutura do projeto
-```shell
-:open_file_folder: Folder1/
- ├─ :page_facing_up: File1
+:open_file_folder: Folder1/<br />
+ ├─ :page_facing_up: File1<br />
  └─ :page_facing_up: File2
- ```
+
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓                Diagrama de classes                 ↓ -->
