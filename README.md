@@ -32,8 +32,10 @@ classDiagram
     Character <|-- NPC: Inheritance
                    NPC <|-- Ghosts: Inheritance
 
-    Character : +int id
-    Character : +move()
+    class Character {
+        +int id
+        +move()
+    }
 
     class Player {
         +move()
