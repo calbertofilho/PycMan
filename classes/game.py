@@ -89,5 +89,6 @@ class Game:
         self.playing = False
         pygame.display.quit()
         pygame.mixer.quit()
+        pygame.font.quit()
         pygame.quit()
         exit()

@@ -24,6 +24,13 @@ Clone do jogo PacMan: Escrito em Python
 * <b>Funcionalidade</b>: O que essa funcionalidade faz?
 <!-- ↑                        Fim                         ↑ -->
 
+<!-- ↓           Estrutura de pastas do projeto           ↓ -->
+### Estrutura do projeto
+:open_file_folder: Folder1/
+ ├─ :page_facing_up: File1
+ └─ :page_facing_up: File2
+<!-- ↑                        Fim                         ↑ -->
+
 <!-- ↓                Diagrama de classes                 ↓ -->
 ### :label: Diagrama
 ```mermaid
