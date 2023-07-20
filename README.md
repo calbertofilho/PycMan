@@ -25,7 +25,7 @@ Clone do jogo PacMan: Escrito em Python
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
-### :open_file_folder: Estrutura do projeto
+### :clipboard: Estrutura do projeto
 <details open>
     <summary>:open_file_folder: PycMan/</summary>
     <details open>
@@ -66,10 +66,11 @@ Clone do jogo PacMan: Escrito em Python
             :page_facing_up: logo.png
         </details>
     </details>
-    :page_facing_up: constantes.py<br />
+    :page_facing_up: .gitignore<br />
     :page_facing_up: LICENSE<br />
-    :page_facing_up: principal.py<br />
     :page_facing_up: README.md<br />
+    :page_facing_up: constantes.py<br />
+    :page_facing_up: principal.py<br />
     :page_facing_up: run.py
 </details>
 <!-- ↑                        Fim                         ↑ -->
