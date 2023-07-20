@@ -64,12 +64,12 @@ Clone do jogo PacMan: Escrito em Python
                 :page_facing_up: icon.png<br />
                 :page_facing_up: logo.png
             </details>
-            :page_facing_up: constantes.py<br />
-            :page_facing_up: LICENSE<br />
-            :page_facing_up: principal.py<br />
-            :page_facing_up: README.md<br />
-            :page_facing_up: run.py
         </details>
+        :page_facing_up: constantes.py<br />
+        :page_facing_up: LICENSE<br />
+        :page_facing_up: principal.py<br />
+        :page_facing_up: README.md<br />
+        :page_facing_up: run.py
     </details>
 </details>
 <!-- ↑                        Fim                         ↑ -->
