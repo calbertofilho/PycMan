@@ -27,23 +27,51 @@ Clone do jogo PacMan: Escrito em Python
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
 ### :open_file_folder: Estrutura do projeto
 <details open>
-    <summary>:open_file_folder: Folder1/</summary>
+    <summary>:open_file_folder: PycMan/</summary>
     <details open>
-        <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder2/</summary>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File1<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: File2
+        <summary>:open_file_folder: classes/</summary>
+        :page_facing_up: game.py
         <details open>
-            <summary>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:open_file_folder: Folder3/</summary>
+            <summary>:open_file_folder: resources/</summary>
+            <details open>
+                <summary>:open_file_folder: audios/</summary>
+                :page_facing_up: credit.wav<br />
+                :page_facing_up: death_1.wav<br />
+                :page_facing_up: death_2.wav<br />
+                :page_facing_up: eat_fruit.wav<br />
+                :page_facing_up: eat_ghost.wav<br />
+                :page_facing_up: extend.wav<br />
+                :page_facing_up: game_start.wav<br />
+                :page_facing_up: intermission.wav<br />
+                :page_facing_up: munch_1.wav<br />
+                :page_facing_up: munch_2.wav<br />
+                :page_facing_up: power_pellet.wav<br />
+                :page_facing_up: retreating.wav<br />
+                :page_facing_up: siren_1.wav<br />
+                :page_facing_up: siren_2.wav<br />
+                :page_facing_up: siren_3.wav<br />
+                :page_facing_up: siren_4.wav<br />
+                :page_facing_up: siren_5.wav
+            </details>
+            <details open>
+                <summary>:open_file_folder: fonts/</summary>
+                :page_facing_up: FreeSansBold.ttf<br />
+                :page_facing_up: RetroGaming.ttf
+            </details>
+            <details open>
+                <summary>:open_file_folder: images/</summary>
+                :page_facing_up: ghost.png<br />
+                :page_facing_up: icon.png<br />
+                :page_facing_up: logo.png
+            </details>
+            :page_facing_up: constantes.py<br />
+            :page_facing_up: LICENSE<br />
+            :page_facing_up: principal.py<br />
+            :page_facing_up: README.md<br />
+            :page_facing_up: run.py
         </details>
     </details>
 </details>
-
-<br />
-<br />
-<br />
-<br />
-
-
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓                Diagrama de classes                 ↓ -->
