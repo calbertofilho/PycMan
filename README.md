@@ -31,7 +31,7 @@ A estrutura do projeto contém essas pastas, que são:<br />
 :books: 'libraries': pasta que contém as bibliotecas e dependências do projeto<br />
 :gear: 'resources': pasta que contém os recursos, como os sons, as imagens, as fontes, entre outros<br />
 :page_facing_up: 'classes': pasta que contém os códigos de implementação do projeto<br />
-:floppy_disk: 'export': pasta que contém o arquivo compilado e pronto para execução<br />
+:package: 'export': pasta que contém o arquivo compilado e pronto para execução<br />
 <details>
     <summary>:open_file_folder: PycMan/</summary>
     <details open>
