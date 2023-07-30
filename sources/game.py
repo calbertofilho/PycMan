@@ -45,8 +45,8 @@ class Game:
         self.ACTION_KEY = False                                                                                     # Flag que sinaliza que a tecla «Space» foi pressionada
         self.DISPLAY_WIDTH = 800                                                                                    # Comprimento da janela
         self.DISPLAY_HEIGHT = 680                                                                                   # Altura da janela
-        self.colors = Colors()
-        self.font_name = ""
+        self.colors = Colors()                                                                                      # A paleta de cores disponível
+        self.font_name = ""                                                                                         # Fonte
         self.display = pygame.Surface((self.DISPLAY_WIDTH, self.DISPLAY_HEIGHT))                                    # Canvas
         self.window = pygame.display.set_mode(((self.DISPLAY_WIDTH, self.DISPLAY_HEIGHT)))                          # Janela
         icon = pygame.image.load(path.join(path.join(getcwd(), 'resources/images'), 'icon.png')).convert_alpha()    # Imagem com o ícone do jogo
