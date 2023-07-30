@@ -1,5 +1,6 @@
 from os import environ as environment, path, getcwd
 from sys import exit
+from sources.colors import Colors
 import pygame
 
 class Game:
@@ -33,19 +34,18 @@ class Game:
         pygame.mixer.pre_init(frequency = 44100, size = 16, channels = 1, buffer = 512)                             # Inicia a biblioteca de manipulação de áudio do PyGame
         self.running = True                                                                                         # Flag que sinaliza a execução do jogo
         self.playing = False                                                                                        # Flag que sinaliza se está no play do jogo
-        self.UP_KEY      = False                                                                                    # Flag que sinaliza que a tecla ↑ foi pressionada
-        self.DOWN_KEY    = False                                                                                    # Flag que sinaliza que a tecla ↓ foi pressionada
-        self.LEFT_KEY    = False                                                                                    # Flag que sinaliza que a tecla ← foi pressionada
-        self.RIGHT_KEY   = False                                                                                    # Flag que sinaliza que a tecla → foi pressionada
+        self.UP_KEY = False                                                                                         # Flag que sinaliza que a tecla ↑ foi pressionada
+        self.DOWN_KEY = False                                                                                       # Flag que sinaliza que a tecla ↓ foi pressionada
+        self.LEFT_KEY = False                                                                                       # Flag que sinaliza que a tecla ← foi pressionada
+        self.RIGHT_KEY = False                                                                                      # Flag que sinaliza que a tecla → foi pressionada
         self.CONFIRM_KEY = False                                                                                    # Flag que sinaliza que a tecla «Enter» foi pressionada
-        self.CANCEL_KEY  = False                                                                                    # Flag que sinaliza que a tecla «Esc» foi pressionada
-        self.BACK_KEY    = False                                                                                    # Flag que sinaliza que a tecla «Backspace» foi pressionada
-        self.JUMP_KEY    = False                                                                                    # Flag que sinaliza que a tecla «Ctrl» foi pressionada
-        self.ACTION_KEY  = False                                                                                    # Flag que sinaliza que a tecla «Space» foi pressionada
-        self.DISPLAY_WIDTH = 640                                                                                    # Comprimento da janela
-        self.DISPLAY_HEIGHT = 480                                                                                   # Altura da janela
-        self.BLACK = (0, 0, 0)
-        self.WHITE = (255, 255, 255)
+        self.CANCEL_KEY = False                                                                                     # Flag que sinaliza que a tecla «Esc» foi pressionada
+        self.BACK_KEY = False                                                                                       # Flag que sinaliza que a tecla «Backspace» foi pressionada
+        self.JUMP_KEY = False                                                                                       # Flag que sinaliza que a tecla «Ctrl» foi pressionada
+        self.ACTION_KEY = False                                                                                     # Flag que sinaliza que a tecla «Space» foi pressionada
+        self.DISPLAY_WIDTH = 800                                                                                    # Comprimento da janela
+        self.DISPLAY_HEIGHT = 680                                                                                   # Altura da janela
+        self.colors = Colors()
         self.font_name = ""
         self.display = pygame.Surface((self.DISPLAY_WIDTH, self.DISPLAY_HEIGHT))                                    # Canvas
         self.window = pygame.display.set_mode(((self.DISPLAY_WIDTH, self.DISPLAY_HEIGHT)))                          # Janela
@@ -98,7 +98,7 @@ class Game:
 
     '''Função que desenha os objetos do jogo'''
     def draw(self):
-        self.display.fill(self.BLACK)
+        self.display.fill(self.colors.BLACK)
         self.window.blit(self.display, (0, 0))
         pygame.display.flip()
 
