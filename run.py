@@ -1,11 +1,9 @@
 from sys import exit
-from classes.game import Game
+from sources.game import Game
 
 def main():
     game = Game()
-    while game.running:
-        game.playing = True
-        game.game_loop()
+    game.run()
 
 try:
     if __name__ == "__main__":

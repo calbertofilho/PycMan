@@ -4,6 +4,27 @@ import pygame
 
 class Game:
 
+    # ## Estruta do código ##
+    # def __init__(self):
+    #     pass
+    # def check_events(self):
+    #     pass
+    # def update(self):
+    #     pass
+    # def draw(self):
+    #     pass
+    # def run(self):
+    #     while True:
+    #         self.check_events()
+    #         self.update()
+    #         self.draw()
+    # def close_game(self):
+    #     pygame.display.quit()
+    #     pygame.mixer.quit()
+    #     pygame.font.quit()
+    #     pygame.quit()
+    #     exit()
+
     '''Função de inicialização de todas as bibliotecas do jogo'''
     def __init__(self):
         environment['SDL_VIDEO_CENTERED'] = '1'                                                                     # Centraliza a janela no monitor
@@ -32,20 +53,8 @@ class Game:
         pygame.display.set_icon(icon)                                                                               # Seta como ícone na janela do jogo
         pygame.display.set_caption('PycMan v1.0')                                                                   # Título da janela do jogo
 
-    '''Função que controla o loop do jogo'''
-    def game_loop(self):
-        while self.playing:
-            self.handle_events()
-            if self.CONFIRM_KEY:
-                self.playing = False
-            elif self.CANCEL_KEY:
-                self.close_game()
-            self.display.fill(self.BLACK)
-            self.window.blit(self.display, (0, 0))
-            pygame.display.update()
-
     '''Função que manipula os eventos de teclado'''
-    def handle_events(self):
+    def check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 self.close_game()
@@ -69,19 +78,36 @@ class Game:
                 if event.key in (pygame.K_LCTRL, pygame.K_RCTRL):
                     self.ACTION_KEY = True
             if event.type == pygame.KEYUP:
-                self.reset_keys()
+                self.UP_KEY = False
+                self.DOWN_KEY = False
+                self.LEFT_KEY = False
+                self.RIGHT_KEY = False
+                self.CONFIRM_KEY = False
+                self.CANCEL_KEY = False
+                self.BACK_KEY = False
+                self.JUMP_KEY = False
+                self.ACTION_KEY = False
 
-    '''Função que limpa o estado de todas as teclas do teclado'''
-    def reset_keys(self):
-        self.UP_KEY = False
-        self.DOWN_KEY = False
-        self.LEFT_KEY = False
-        self.RIGHT_KEY = False
-        self.CONFIRM_KEY = False
-        self.CANCEL_KEY = False
-        self.BACK_KEY = False
-        self.JUMP_KEY = False
-        self.ACTION_KEY = False
+    '''Função que atualiza os objetos do jogo'''
+    def update(self):
+        if self.CONFIRM_KEY:
+            self.playing = True
+        elif self.CANCEL_KEY:
+            self.close_game()
+        pygame.display.update()
+
+    '''Função que desenha os objetos do jogo'''
+    def draw(self):
+        self.display.fill(self.BLACK)
+        self.window.blit(self.display, (0, 0))
+        pygame.display.flip()
+
+    '''Função que controla o loop do jogo'''
+    def run(self):
+        while self.running:
+            self.check_events()
+            self.update()
+            self.draw()
 
     '''Função que encerra todas as bibliotecas e fecha o jogo'''
     def close_game(self):
