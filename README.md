@@ -21,11 +21,6 @@ Clone do jogo PacMan: Escrito em Python, utilizando as bibliotecas pyGame e numP
 * <strong>PyInstaller:</strong> biblioteca que permite criar executáveis desde o código Python, ou seja, o mesmo empacota aplicativos Python bem como suas dependências em um único pacote
 <!-- ↑                        Fim                         ↑ -->
 
-<!-- ↓      Funcionalidades implementadas na solução      ↓ -->
-### :gear: Funcionalidades
-* <b>Funcionalidade</b>: O que essa funcionalidade faz?
-<!-- ↑                        Fim                         ↑ -->
-
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
 ### :clipboard: Estrutura do projeto
 A estrutura do projeto contém essas pastas, que são:<br />
@@ -33,6 +28,11 @@ A estrutura do projeto contém essas pastas, que são:<br />
 :books: 'libraries': pasta que contém as bibliotecas e dependências externas do projeto<br />
 :gear: 'resources': pasta que contém os recursos, como: os sons, as imagens, as fontes, entre outros, do projeto<br />
 :page_facing_up: 'sources': pasta que contém os códigos de implementação do projeto<br />
+<!-- ↑                        Fim                         ↑ -->
+
+<!-- ↓      Funcionalidades implementadas na solução      ↓ -->
+### :gear: Funcionalidades
+* <b>Funcionalidade</b>: O que essa funcionalidade faz?
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓                Diagrama de classes                 ↓ -->
