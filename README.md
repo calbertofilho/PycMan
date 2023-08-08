@@ -17,8 +17,8 @@ Clone do jogo PacMan: Escrito em Python, utilizando as bibliotecas pyGame e numP
 ### :wrench: Tecnologias utilizadas
 * <strong>Python:</strong> Linguagem de programação de alto nível, de propósito geral
 * <strong>PyGame:</strong> biblioteca baseada em SDL, voltada para o desenvolvimento de jogos e interfaces gráficas
-* <strong>numPy:</strong> biblioteca utilizada para cálculos numéricos complexos utilizados em machine learning e inteligência artificial
-* <strong>PyInstaller:</strong> biblioteca que permite criar aplicativos executáveis desde o código Python, ou seja, o mesmo empacota aplicativos Python bem como suas dependências em um único pacote
+* <strong>numPy:</strong> biblioteca utilizada para cálculos numéricos complexos utilizados em machine learning e I.A.
+* <strong>PyInstaller:</strong> biblioteca que permite criar executáveis desde o código Python, ou seja, o mesmo empacota aplicativos Python bem como suas dependências em um único pacote
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓      Funcionalidades implementadas na solução      ↓ -->
