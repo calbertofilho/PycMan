@@ -24,10 +24,10 @@ Clone do jogo PacMan: Escrito em Python, utilizando as bibliotecas pyGame e numP
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
 ### :clipboard: Estrutura do projeto
 O projeto contém essas pastas, que são:<br />
-:package: <strong>export:</strong> contém o arquivo compilado (.exe) e pronto para execução do projeto<br />
-:books: <strong>libraries:</strong> contém as bibliotecas e dependências externas do projeto<br />
-:gear: <strong>resources:</strong> contém os recursos, como: os sons, as imagens, as fontes, entre outros, do projeto<br />
-:page_facing_up: <strong>sources:</strong> contém os códigos da implementação do projeto<br />
+:package: <strong>export:</strong> contém o arquivo compilado (.exe) e pronto para execução<br />
+:books: <strong>libraries:</strong> contém as bibliotecas e dependências externas<br />
+:gear: <strong>resources:</strong> contém os recursos, como: os sons, as imagens, as fontes, entre outros<br />
+:page_facing_up: <strong>sources:</strong> contém os códigos da implementação<br />
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓      Funcionalidades implementadas na solução      ↓ -->
