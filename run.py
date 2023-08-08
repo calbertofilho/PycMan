@@ -1,5 +1,13 @@
-from sys import exit
+from os import getcwd, chdir
+from sys import exit, path as syspath
 from sources.game import Game
+import sys
+
+# Comandos para o PyInstaller
+dirpath = getcwd()
+syspath.append(dirpath)
+if getattr(sys, "frozen", False):
+    chdir(sys._MEIPASS)
 
 def main():
     game = Game()
