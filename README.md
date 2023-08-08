@@ -27,9 +27,9 @@ Clone do jogo PacMan: Escrito em Python
 <!-- ↓           Estrutura de pastas do projeto           ↓ -->
 ### :clipboard: Estrutura do projeto
 A estrutura do projeto contém essas pastas, que são:<br />
-:package: 'export': pasta que contém o arquivo compilado e pronto para execução<br />
-:books: 'libraries': pasta que contém as bibliotecas e dependências do projeto<br />
-:gear: 'resources': pasta que contém os recursos, como os sons, as imagens, as fontes, entre outros<br />
+:package: 'export': pasta que contém o arquivo compilado (.exe) e pronto para execução do projeto<br />
+:books: 'libraries': pasta que contém as bibliotecas e dependências externas do projeto<br />
+:gear: 'resources': pasta que contém os recursos, como: os sons, as imagens, as fontes, entre outros, do projeto<br />
 :page_facing_up: 'sources': pasta que contém os códigos de implementação do projeto<br />
 <!-- ↑                        Fim                         ↑ -->
 
