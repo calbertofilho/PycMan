@@ -10,7 +10,8 @@ PycMan
 
 <!-- ↓              Descrição do repositório              ↓ -->
 ### :memo: Descrição
-Clone do jogo PacMan: Escrito em Python, utilizando as bibliotecas pyGame e numPy.
+Clone do jogo PacMan<br />
+escrito em Python, utilizando as bibliotecas pyGame e numPy.
 <!-- ↑                        Fim                         ↑ -->
 
 <!-- ↓      Tecnologias utilizadas na implementação       ↓ -->
